@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 你的DockerHub帳號/hello-app:v1 # 這裡先寫死 v1，等一下 Jenkins 會來自動修改它
+        image: sean15521304262/hello-app:v1 # 這裡先寫死 v1，等一下 Jenkins 會來自動修改它
         ports:
         - containerPort: 80
