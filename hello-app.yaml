@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sean15521304262/hello-app:v1.1 
+        image: sean15521304262/hello-app:v1.2
         ports:
         - containerPort: 80
 ---
